@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+    int n,d,a,b;
+    scanf("%d %d",&n,&d);
+    a=d*2+1;
+    b=n/a;
+    if(n%a!=0)
+        b++;
+    printf("%d\n",b);
+
+    return 0;
+}
